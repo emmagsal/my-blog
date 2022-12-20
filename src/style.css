@@ -42,3 +42,6 @@ p {
 h1 {
     margin-top: 50px;
 }
+.thumbnail {
+    max-width: 150px;
+}
