@@ -8,7 +8,6 @@
 body {
     font-family: sans-serif;
     text-align: center;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     background-color: var(--secondary-color);
 }
 .books {
@@ -20,6 +19,7 @@ body {
     display: flex;
         justify-content: space-evenly;
         margin: 0 20px;
+        font-family: 'Arimo', sans-serif;
 }
 
 .links {
@@ -47,4 +47,11 @@ h1 {
 }
 .container {
     margin: 0 25px;
+}
+.navbar {
+    font-family: 'Arimo', sans-serif;
+}
+
+.navbar-brand {
+    color: var(--primary-color) !important;
 }
