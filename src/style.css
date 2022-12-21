@@ -43,5 +43,8 @@ h1 {
     margin-top: 50px;
 }
 .thumbnail {
-    max-width: 150px;
+    max-width: 150px;  
+}
+.container {
+    margin: 0 25px;
 }
