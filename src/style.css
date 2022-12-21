@@ -1,6 +1,8 @@
 :root {
 --primary-color: #37a665;
 --secondary-color: #f9e6f0;
+--font-color: #3d582f;
+
 }
 .banner {
     max-width: 100%;
@@ -9,6 +11,7 @@ body {
     font-family: sans-serif;
     text-align: center;
     background-color: var(--secondary-color);
+    color: var(--font-color);
 }
 .books {
         display: flex;
@@ -63,4 +66,7 @@ color: var(--primary-color) !important;
 .dropdown-menu {
     --bs-dropdown-bg: var(--secondary-color);
     --bs-dropdown-link-color: var(--primary-color);
+}
+.half-page {
+    max-width: 400px;
 }
