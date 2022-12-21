@@ -43,6 +43,7 @@ p {
 }
 h1 {
     margin: 50px 25px;
+    text-align: center;
 }
 .thumbnail {
     max-width: 150px;  
