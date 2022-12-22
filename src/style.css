@@ -7,6 +7,16 @@
 .banner {
     max-width: 100%;
 }
+.buttons {
+    font-family: 'Amatic SC', cursive;
+    margin: 0 20px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 2px 20px;
+    border-radius: 4px;
+    font-size: 25px;
+
+}
 body {
     font-family: sans-serif;
     text-align: center;
@@ -26,6 +36,7 @@ body {
 }
 
 .links {
+    font-family: 'Amatic SC', cursive;
     display: flex;
     justify-content: space-evenly;
     margin: 0 20px;
@@ -34,7 +45,6 @@ body {
 a {
     text-decoration: none;
     color: var(--primary-color);
-    font-family: 'Arimo', sans-serif;
 }
 
 p {
@@ -44,6 +54,8 @@ p {
 h1 {
     margin: 50px 25px;
     text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 96px;
 }
 .thumbnail {
     max-width: 150px;  
@@ -66,5 +78,5 @@ color: var(--primary-color) !important;
     background-color: var(--secondary-color);
    }
 .half-page {
-    max-width: 500px;
+    max-width: 350px;
 }
