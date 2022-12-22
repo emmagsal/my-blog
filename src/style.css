@@ -84,3 +84,8 @@ color: var(--primary-color) !important;
 .half-page {
     max-width: 350px;
 }
+@media (max-width: 600px) {
+    .col-md-6 {
+        margin-top: 30px !important;
+    }
+}
