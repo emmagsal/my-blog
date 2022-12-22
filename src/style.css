@@ -15,7 +15,11 @@
     padding: 2px 20px;
     border-radius: 4px;
     font-size: 25px;
-
+}
+.buttons:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    transition: ease-in-out 0s;
 }
 body {
     font-family: sans-serif;
@@ -39,7 +43,7 @@ body {
     font-family: 'Amatic SC', cursive;
     display: flex;
     justify-content: space-evenly;
-    margin: 0 20px;
+    margin: 30px 20px;
 }
 
 a {
@@ -61,7 +65,7 @@ h1 {
     max-width: 150px;  
 }
 .container {
-    margin: 0 25px;
+    margin: 0px 25px;
 }
 .navbar {
     font-family: 'Arimo', sans-serif;
