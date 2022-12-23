@@ -61,6 +61,12 @@ h1 {
     font-family: 'Amatic SC', cursive;
     font-size: 96px;
 }
+h2 {
+    margin: 50px 25px;
+        text-align: center;
+        font-family: 'Amatic SC', cursive;
+        font-size: 70px;
+}
 img {
     border-radius: 4px;
 }
