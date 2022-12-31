@@ -4,8 +4,20 @@
 --font-color: #3d582f;
 
 }
-.banner {
-    max-width: 100%;
+.hero {
+background-color: var(--secondary-color);
+color: white;
+}
+.hero-image {
+    background-image: url("website-banner.png");
+    padding: 100px 0px; 
+    background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+}
+.container {
+    margin: 0px 10px;
 }
 .buttons {
     font-family: 'Amatic SC', cursive;
@@ -70,12 +82,7 @@ h2 {
 img {
     border-radius: 4px;
 }
-.thumbnail {
-    max-width: 150px;  
-}
-.container {
-    margin: 0px 25px;
-}
+
 .navbar {
     font-family: 'Arimo', sans-serif;
 }
@@ -101,5 +108,6 @@ color: var(--primary-color) !important;
     }
     h1 {
         margin-bottom: 25px;
+        font-size: 50px;
     }
 }
