@@ -1,8 +1,8 @@
 :root {
---primary-color: #37a665;
---secondary-color: #f9e6f0;
---font-color: #3d582f;
-
+--primary-color: #fcffc1;
+--secondary-color: #9bf4d5;
+--font-color: #1dad9b;
+--fourth-color: #346357;
 }
 .hero {
 background-color: var(--secondary-color);
@@ -79,8 +79,12 @@ h2 {
         font-family: 'Amatic SC', cursive;
         font-size: 70px;
 }
+h3 {
+    text-align: left;
+    color: var(--primary-color);
+}
 img {
-    border-radius: 4px;
+    border-radius: 10px;
 }
 
 .navbar {
