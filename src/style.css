@@ -86,20 +86,24 @@ h3 {
 img {
     border-radius: 10px;
 }
-
+.little-note p {
+    text-align: center;
+    color: var(--primary-color);
+}
 .navbar {
     font-family: 'Arimo', sans-serif;
 }
 .navbar-nav {
-color: var(--primary-color) !important;
---bs-nav-link-color: var(--primary-color);
-    --bs-nav-link-hover-color: var(--primary-color);
+color: var(--font-color) !important;
+--bs-nav-link-color: var(--font-color);
+    --bs-nav-link-hover-color: var(--font-color);
+   
 }
 .navbar-brand {
-    color: var(--primary-color) !important;
+    color: var(--font-color) !important;
    }
    .navbar-collapse {
-    background-color: var(--secondary-color);
+    background-color: none;
    }
 .half-page {
     max-width: 350px;
