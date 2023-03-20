@@ -4,20 +4,25 @@
 --font-color: #1dad9b;
 --fourth-color: #346357;
 }
-.hero {
-background-color: var(--secondary-color);
-color: white;
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: white;
+    color: var(--font-color);
 }
-.hero-image {
+
+header {
     background-image: url("website-banner.png");
     padding: 100px 0px; 
     background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: var(--primary-color);
 }
 .container {
-    margin: 0px 10px;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 .buttons {
     font-family: 'Amatic SC', cursive;
@@ -33,9 +38,9 @@ color: white;
     color: var(--primary-color);
     transition: ease-in-out 0s;
 }
-body {
-    font-family: sans-serif;
-    text-align: center;
+section {
+    max-width: 1200px;
+    margin: 0 auto;
     background-color: var(--secondary-color);
     color: var(--font-color);
 }
@@ -48,7 +53,7 @@ body {
     display: flex;
         justify-content: space-evenly;
         margin: 0 20px;
-        font-family: 'Arimo', sans-serif;
+        
 }
 
 .links {
@@ -66,6 +71,7 @@ a {
 p {
     margin: 15px 30px;
     text-align: left;
+    font-family: 'Courier New', Courier, monospace;
 }
 h1 {
     margin: 50px 25px;
