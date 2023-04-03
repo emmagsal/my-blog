@@ -7,18 +7,25 @@
 body {
     font-family: sans-serif;
     text-align: center;
-    background-color: white;
-    color: var(--font-color);
+    background-color: var(--primary-color);
+    
+    
 }
 
 header {
     background-image: url("website-banner.png");
-    padding: 100px 0px; 
+    padding: 150px 0px; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     color: var(--primary-color);
+}
+header h1 {
+    margin: 50px 25px;
+        text-align: center;
+        font-family: 'Amatic SC', cursive;
+        font-size: 150px;
 }
 .container {
     max-width: 1400px;
@@ -41,7 +48,7 @@ header {
 section {
     max-width: 1200px;
     margin: 0 auto;
-    background-color: var(--secondary-color);
+    background-color: white;
     color: var(--font-color);
 }
 .books {
@@ -89,7 +96,9 @@ h2 {
 }
 h3 {
     text-align: left;
-    color: var(--primary-color);
+    color: var(--font-color);
+    font-family: 'Amatic SC', cursive;
+    margin: 15px 30px;
 }
 img {
     border-radius: 10px;
@@ -117,13 +126,18 @@ color: var(--font-color) !important;
     max-width: 350px;
     border-radius: 10px;
 }
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.grid-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
 
 @media (max-width: 600px) {
-    .col-md-6 {
-        margin-top: 30px !important;
-    }
-    h1 {
-        margin-bottom: 25px;
-        font-size: 50px;
-    }
+   
+  
 }
